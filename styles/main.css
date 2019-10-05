@@ -136,9 +136,171 @@ a {
 	
 }
 
-.content1 ul {
+.block1 {
+	padding-top: 30px;
+}
+
+.block1 ul {
 	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;
+	box-sizing: border-box;
+	align-content: center;
+	letter-spacing: 0.01em;
+	line-height: 21px;
+}
+.block1 ul > li.greylist {
+	padding-right: 43px;
+}
+
+.block1 h1 {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	margin-right: 41px;
+}
+
+.block1 > ul > li.greylist {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+	opacity: 0.3;
+	padding-left: 20px;
+}
+
+.greylist > span {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 29px;
+	padding-right: 5px;
+	margin-top: 5px;
+}
+
+.ltc-small {
+	background: url("./../images/ltc-small.png") no-repeat;
+	background-position: left  center;
+}
+
+.btc-small {
+	background: url("./../images/btc-small.png") no-repeat;
+	background-position: left  center;
+}
+
+.eth-small {
+	background: url("./../images/eth-small.png") no-repeat;
+	background-position: left  center;
+}
+
+li.block1-button {
+	background: linear-gradient(270deg, #162970 0%, #255390 99.28%);
+	box-shadow: 0px 8px 10px rgba(60, 84, 117, 0.15);
+	border-radius: 20px;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	margin-left: 220px;
 }
 
 
+.block1-button a {
+	font-weight: 500;
+	font-size: 13px;
+	display: block;
+	text-align: center;
+	width: 187px;
+	height: 40px;
+	line-height: 40px;
+	padding-right: 0 !important;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+}
 
+.block1-button a:before {
+	content: "+"
+
+}
+
+.all-card {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.card {
+	margin: 0;
+	padding: 0 13px 16px;
+	height: 163px;
+	width: 290px;
+}
+
+.big-card{
+	width: 100%;
+	height: 113px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+	border-radius: 5px;
+}
+
+.small-card {
+	margin-top: 14px;
+	width: 100%;
+	height: 36px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+	border-radius: 5px;
+}
+
+.cardlink {
+	border: 2px solid #F2AE4B;
+	box-sizing: border-box;
+	box-shadow: 0px 8px 10px rgba(60, 84, 117, 0.15);
+}
+
+.small-card-ex {
+	margin-top: 14px;
+	width: 100%;
+	height: 36px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.binance {
+	width: 143px;
+	height: 36px;
+	background-color: #FFFFFF;
+	border: 2px solid #F3BA2F;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+	border-radius: 5px;
+	background-image: url("./../images/binance.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.buysell {
+	width: 138px;
+	height: 36px;
+	background-color: #00D56E;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+	border-radius: 5px;
+	background-image: url("./../images/buysell.png");
+	background-repeat: no-repeat;
+	background-position: center;
+ }
+
+ .card-rext {
+	padding: 15px 19px 18px 25px;
+ }
+
+ 
