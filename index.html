@@ -25,7 +25,7 @@
         <!-- Моя Ферма -->
         <div class="block1">
             <ul>
-                <li>h1>МОЯ ФЕРМА<h1></li>
+                <li><h1>МОЯ ФЕРМА<h1></li>
 				<li class="greylist ltc-small"><span>LTC</span> $160,43</li>
 				<li class="greylist btc-small"><span>BTC</span> $8 545,00</li>
 				<li class="greylist eth-small"><span>ETH</span> $533,00</li>
@@ -33,9 +33,14 @@
 			</ul>
 			<div class="all-card">
 				<div class="card">
-					<div class="big-card">
-						<div class="card-rext">
-						<p>Суммарный баланс</p>
+					<div class="big-card cardlink">
+						<div class="card-text">
+						<img class="mini-img" src="./images/ques.png">
+							<ul>	
+								<li>Суммарный баланс</li>
+								<li class="marker"> 1.245008 <span>BTC</span></li>
+								<li>15 678 USD</li>
+							</ul>	
 						</div>
 					</div>
 					<div class="small-card-ex">
@@ -47,40 +52,133 @@
 				</div>
 				<div class="card">
 					<div class="big-card">
+						<div class="card-text">
+						<img class="mini-img" src="./images/ltc.png">
+						<img src="./images/schedule.png">
+							<ul>	
+								<li>Litecoin  LTC</li>
+								<li class="marker-2"> 24 <span>MH/S</span></li>
+								<li>0.15000000 LTC</li>
+							</ul>
+						</div>
 					</div>
 					<div class="small-card">
+						<ul>
+							<li>
+								<input type="radio" id="LTC" checked>
+								<label for="LTC">Автопокупка хешрейта <span>(3 Mh/s)</span></label>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="card">
 					<div class="big-card">
+						<div class="card-text">
+						<img class="mini-img" src="./images/btc.png">
+						<img src="./images/schedule.png">
+							<ul>	
+								<li>Bitcoin  BTC</li>
+								<li class="marker-2"> 24 <span>MH/S</span></li>
+								<li>0.15000000 LTC</li>
+							</ul>	
+						</div>
 					</div>
 					<div class="small-card">
+						<ul>
+							<li>
+								<input type="radio" id="BTC">
+								<label for="BTC">Автопокупка хешрейта <span>(10 Mh/s)</span></label>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="card">
 					<div class="big-card">
+						<div class="card-text">
+						<img class="mini-img" src="./images/eth.png">
+						<img src="./images/schedule.png">
+							<ul>	
+								<li>Ethereum  ETH</li>
+								<li class="marker-2"> 24 <span>MH/S</span></li>
+								<li>0.15000000 LTC</li>
+							</ul>	
+						</div>
 					</div>
 					<div class="small-card">
+						<ul>
+							<li>
+								<input type="radio" id="ETH" checked>
+								<label for="ETH">Автопокупка хешрейта <span>(5 Mh/s)</span></label>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="card">
 					<div class="big-card">
+						<div class="card-text">
+						<img class="mini-img" src="./images/dash.png">
+						<img src="./images/schedule.png">
+							<ul>	
+								<li>Dash  DASH</li>
+								<li class="marker-3"> 0 <span>MH/S</span></li>
+								<li>0.00000000 LTC</li>
+							</ul>	
+						</div>
 					</div>
 					<div class="small-card">
+						<ul>
+							<li>
+								<input type="radio" id="DASH" checked>
+								<label for="DASH">Автопокупка хешрейта <span>(3 Mh/s)</span></label>
+							</li>
+						</ul>
 					</div>
 				</div>
 					<div class="card">
 					<div class="big-card">
+						<div class="card-text">
+						<img class="mini-img" src="./images/monero.png">
+						<img src="./images/schedule.png">
+							<ul>	
+								<li>Monero XMR</li>
+								<li class="marker-3"> 24 <span>MH/S</span></li>
+								<li>0.15000000 LTC</li>
+							</ul>	
+						</div>
 					</div>
-					<div class="small-card">
+						<div class="small-card">
+							<ul>
+							<li>
+								<input type="radio" name="MONERO">
+								<label for="MONERO">Автопокупка хешрейта <span>(10 Mh/s)</span></label>
+							</li>
+						</ul>
+						</div>
 					</div>
-				</div>
-			</div>		
+			</div>
+			<div class="balance">
+			<ul>
+				<li>Общий баланс</li>
+				<li class="marker-4">1.245 <span>BTC</span></li>
+			</ul>
+			<ul>
+				<li>Начисления</li>
+				<li class="marker-5">0.114 <span>BTC</span></li>
+			</ul>
+			<ul>
+				<li>Обслуживание</li>
+				<li class="marker-6">0.087 <span>BTC</span></li>
+			</ul>
+			<div>	
 		</div>
 		<!-- /Моя Ферма -->
 
 		<!-- Начисления и баланс -->
 		<div class="block2">
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
 		</div>
 		<!-- /Начисления и баланса -->
 
@@ -91,6 +189,7 @@
 
 		<!-- Подвал -->
 		<div class="block3">
+		
 		</div>
 		<!-- /Подвал -->
 	</div>

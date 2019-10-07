@@ -9,9 +9,11 @@ body {
 	font-size: 14px;
 	line-height: 16px;
 	color: #000;
-	background: #E5E5E5;
+	background: #f3f3f3;
 	flex-wrap: nowrap;
 }
+
+
 a {
 	text-decoration: none;
 }
@@ -205,7 +207,7 @@ li.block1-button {
 	color: #FFFFFF;
 	padding: 0;
 	margin: 0;
-	margin-left: 220px;
+	margin-left: 245px;
 }
 
 
@@ -224,7 +226,7 @@ li.block1-button {
 }
 
 .block1-button a:before {
-	content: "+"
+	content: "+   "
 
 }
 
@@ -232,6 +234,8 @@ li.block1-button {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 30px;
+    padding-left: 25px;
+
 }
 
 .card {
@@ -258,6 +262,13 @@ li.block1-button {
 	box-sizing: border-box;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
 	border-radius: 5px;
+	box-sizing: border-box;
+	padding-left: 18px;
+}
+
+.small-card ul {
+	margin: 0;
+	padding: 0;
 }
 
 .cardlink {
@@ -299,8 +310,136 @@ li.block1-button {
 	background-position: center;
  }
 
- .card-rext {
+.card-text {
 	padding: 15px 19px 18px 25px;
+	height: 100%;
+	box-sizing: border-box;
  }
+	
+.block1 .big-card .card-text > ul {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+	align-items: flex-start;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}	
+	
+.card-text > ul > li{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
 
- 
+
+.card-text > ul > li:first-child {
+	list-style: none;
+	font-size: 16px;
+	line-height: 19px;
+	color: #828282;
+	font-weight: normal;
+}
+
+.card-text > ul > li:last-child {
+	list-style: none;
+	font-size: 14px;
+	line-height: 16px;
+	color: #4F4F4F;
+}
+
+.card-text span {
+	font-size: 14px;
+}
+
+.big-card img {
+	position: absolute;
+    padding-left: 140px;
+    padding-top: 35px;
+}
+
+.big-card img.mini-img {
+	position: absolute;
+    padding-left: 220px;
+    padding-top: 0px;
+
+}
+
+.card-text > ul > li.marker:before {
+	content: "•";
+	color: #2F80ED;
+}
+
+.card-text > ul > li.marker-2:before {
+	content: url("./../images/speed-meter-3.png");
+}
+
+.card-text > ul > li.marker-3:before {
+	content: url("./../images/speed-meter-1.png");
+}
+
+input, label {
+	vertical-align: middle;
+}
+
+label > span {
+	opacity: 0.5;
+}
+
+.balance {
+	margin-top: 39px;
+	margin-left: 37px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.balance > ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0;
+	margin: 0;
+	width: 110px;
+	height: 53px;
+	line-height: 16px;
+	margin-right: 36px;
+}	
+
+.balance > ul > li {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #828282;
+}
+
+.balance > ul > li:last-child {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+
+.balance span {
+	font-size: 12px;
+	opacity: 0.3;
+	font-weight: bold;
+}
+
+.balance .marker-4:before {
+	content: "• ";
+	color: #27AE60;
+}
+
+.balance .marker-5:before {
+	content: "• ";
+	color: #255F80;
+}
+
+.balance .marker-6:before {
+	content: "• ";
+	color: #F2994A;
+}
+
